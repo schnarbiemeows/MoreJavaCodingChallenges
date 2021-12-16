@@ -11,7 +11,16 @@ class PalindromeNumber {
      */
     public static void main(String[] args) {
         PalindromeNumberSolution solution = new PalindromeNumberSolution();
-        boolean answer = solution.isPalindrome(101);
-        System.out.println(answer);
+        for(int i=-100 ; i< 100 ; i++) {
+            //boolean answer = solution.isPalindrome(i);
+            //System.out.println(i + " " + answer);
+        }
+        boolean answer = solution.isPalindrome(1221);
+        System.out.println(1221 + " " + answer);
+        answer = solution.isPalindrome(56765);
+        System.out.println(56765 + " " + answer);
+        answer = solution.isPalindrome(212898212);
+        System.out.println(212898212 + " " + answer);
+
     }
 }
